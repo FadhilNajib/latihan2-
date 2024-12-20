@@ -59,3 +59,9 @@ To https://github.com/FadhilNajib/latihan2-.git
 
 Hp@FATKHURROZI MINGW64 /d/nyoba git/kedua (master)
 $
+//melakukan pull atau mengambil data dari repository ke dalam folder sekaligus setting branch master
+Hp@FATKHURROZI MINGW64 /d/nyoba git/nyoba (master)
+$ git pull origin master
+From https://github.com/FadhilNajib/latihan2-
+ * branch            master     -> FETCH_HEAD
+
