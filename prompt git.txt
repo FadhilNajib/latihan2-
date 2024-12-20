@@ -1,0 +1,61 @@
+
+//memulai dengan setting email github
+
+Hp@FATKHURROZI MINGW64 /d/nyoba git/kedua
+$ git config --global user.email "fadhilnajib86@gmwil.com"
+
+//membuat repository pada folder yg di laptop
+Hp@FATKHURROZI MINGW64 /d/nyoba git/kedua
+$ git init
+Initialized empty Git repository in D:/nyoba git/kedua/.git/
+
+//menambahkan semua file dan yang ada dalam folder
+Hp@FATKHURROZI MINGW64 /d/nyoba git/kedua (master)
+$ git add .
+
+//melakukan remote pada folder di github
+Hp@FATKHURROZI MINGW64 /d/nyoba git/kedua (master)
+$ git remote add origin https://github.com/FadhilNajib/latihan2-.git
+
+//commit
+Hp@FATKHURROZI MINGW64 /d/nyoba git/kedua (master)
+$ git commit -m "first commit"
+[master (root-commit) 61001fe] first commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 prompt git.txt
+
+//git push
+Hp@FATKHURROZI MINGW64 /d/nyoba git/kedua (master)
+$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 214 bytes | 214.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/FadhilNajib/latihan2-.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+//update tinggal git add.
+Hp@FATKHURROZI MINGW64 /d/nyoba git/kedua (master)
+$ git add .
+
+//lanjut commit
+Hp@FATKHURROZI MINGW64 /d/nyoba git/kedua (master)
+$ git commit -m "update brow"
+[master 326ce70] update brow
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hai.txt
+//push tinggal gini
+Hp@FATKHURROZI MINGW64 /d/nyoba git/kedua (master)
+$ git push
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 242 bytes | 242.00 KiB/s, done.
+Total 2 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/FadhilNajib/latihan2-.git
+   61001fe..326ce70  master -> master
+
+Hp@FATKHURROZI MINGW64 /d/nyoba git/kedua (master)
+$
