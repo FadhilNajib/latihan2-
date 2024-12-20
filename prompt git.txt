@@ -65,3 +65,11 @@ $ git pull origin master
 From https://github.com/FadhilNajib/latihan2-
  * branch            master     -> FETCH_HEAD
 
+//menyambungkan folder ke repository jika sudah pernah disambungkan
+//dengan cek apakah sudah tersambung atau belum
+Hp@FATKHURROZI MINGW64 /d/nyoba git/kedua (master)
+$ git remote -v
+origin  https://github.com/FadhilNajib/latihan2-.git (fetch)
+origin  https://github.com/FadhilNajib/latihan2-.git (push)
+
+//setelah itu bisa langsung di pull saja
